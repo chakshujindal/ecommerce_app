@@ -17,6 +17,7 @@ python manage.py startapp orders
 
 # Database migrations
 python manage.py makemigrations
+
 python manage.py migrate
 
 # Run the Development Server
