@@ -3,12 +3,16 @@ pip install django djangorestframework djangorestframework-simplejwt django-rest
 
 # Project setup
 django-admin startproject ecommerce_app
+
 cd ecommerce_app
 
 # App setup
 python manage.py startapp core
+
 python manage.py startapp users
+
 python manage.py startapp products
+
 python manage.py startapp orders
 
 # Database migrations
